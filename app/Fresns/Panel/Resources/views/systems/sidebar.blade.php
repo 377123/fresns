@@ -1,7 +1,7 @@
 <div class="col-lg-2 fresns-sidebar mt-3 mt-lg-0">
     <nav class="navbar navbar-expand-lg navbar-light flex-lg-column shadow" style="background-color:#e3f2fd;">
         <div class="container-fluid d-lg-flex flex-lg-column">
-            <span class="navbar-brand">{{ __('FsLang::panel.menu_systems') }}</span>
+            <span class="navbar-brand"><i class="bi bi-controller"></i> {{ __('FsLang::panel.menu_systems') }}</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -14,10 +14,10 @@
                     <li class="nav-item"><a class="nav-link {{ \Route::is('panel.user.*') ? 'active' : ''}}" href="{{ route('panel.user.index') }}">{{ __('FsLang::panel.sidebar_user') }}</a></li>
                     <li class="nav-item"><a class="nav-link {{ \Route::is('panel.wallet.*') ? 'active' : ''}}" href="{{ route('panel.wallet.index')}}">{{ __('FsLang::panel.sidebar_wallet') }}</a></li>
                     <li class="nav-item"><a class="nav-link {{ \Route::is('panel.storage.*') ? 'active' : ''}}" href="{{ route('panel.storage.image.index') }}">{{ __('FsLang::panel.sidebar_storage') }}</a></li>
-                    <li class="nav-item d-block d-lg-none my-3 text-secondary">Powered by Fresns</li>
+                    <li class="nav-item d-block d-lg-none my-3 text-secondary">Powered by HaoLiHen</li>
                 </ul>
             </div>
         </div>
-        <div class="fresns-copyright d-none d-lg-block">Powered by Fresns</div>
+        <div class="fresns-copyright d-none d-lg-block">Powered by HaoLiHen</div>
     </nav>
 </div>
