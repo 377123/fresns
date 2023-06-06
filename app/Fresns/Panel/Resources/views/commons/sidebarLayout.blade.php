@@ -9,7 +9,7 @@
             @yield('sidebar')
             <!--left end-->
             <!--right-->
-            <div class="col-lg-10 fresns-setting mt-3 mt-lg-0 p-lg-3">
+            <div class="col-lg-10 fresns-setting mt-3 mt-lg-0 my-lg-0 px-lg-1 py-lg-3">
                 <!--setting-->
                 <div class="bg-white mb-2 p-3 p-lg-5">
                     @yield('content')

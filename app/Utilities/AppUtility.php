@@ -24,12 +24,12 @@ use Illuminate\Support\Str;
 
 class AppUtility
 {
-    const BASE_URL = 'https://app.fresns.org';
-    const WEBSITE_URL = 'https://fresns.org';
-    const WEBSITE_ZH_HANS_URL = 'https://zh-hans.fresns.org';
-    const WEBSITE_ZH_HANT_URL = 'https://zh-hant.fresns.org';
-    const COMMUNITY_URL = 'https://discuss.fresns.com';
-    const MARKETPLACE_URL = 'https://marketplace.fresns.com';
+    const BASE_URL = 'https://app.haolihen.com';
+    const WEBSITE_URL = 'https://www.haolihen.com';
+    const WEBSITE_ZH_HANS_URL = 'https://zh-hans.haolihen.com';
+    const WEBSITE_ZH_HANT_URL = 'https://zh-hant.haolihen.com';
+    const COMMUNITY_URL = 'https://discuss.haolihen.com';
+    const MARKETPLACE_URL = 'https://marketplace.haolihen.com';
 
     public static function currentVersion(): array
     {

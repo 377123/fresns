@@ -61,18 +61,18 @@ body {
 }
 
 .fresns-navbar {
-    background-color: #7952b3 !important;
+    background-color: #000 !important;
 }
 @media (min-width: 768px) {
     .fresns-navbar {
-        height: 80px;
+        height: 48px;
     }
     .nav-item {
         margin: 0 10px;
     }
 }
 #navbarSupportedContent .nav-link.active {
-    color: var(--bs-indigo);
+    color: #1890ff;
 }
 
 .form-setting {
@@ -132,11 +132,11 @@ body {
 @media (min-width: 992px) {
     .fresns-sidebar .navbar {
         overflow-y: auto;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 48px);
         align-items: start;
     }
     .fresns-setting {
-        height: calc(100vh - 80px);
+        height: calc(100vh - 48px);
         overflow-y: auto;
     }
     .fresns-sidebar .navbar-brand {

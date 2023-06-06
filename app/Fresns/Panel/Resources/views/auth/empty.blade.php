@@ -3,13 +3,8 @@
 @section('body')
     <header class="form-signin text-center">
         <img class="mt-3 mb-2" src="{{ @asset('/static/images/icon.png') }}" alt="Fresns" width="72" height="72">
-        <h2 class="mb-5">Fresns</h2>
-        <h4 class="mb-3 fw-normal">{{ __('FsLang::panel.language') }}</h4>
-        <select class="form-select mb-5 change-lang" aria-label=".form-select-lg example">
-            @foreach ($langs as $code => $lang)
-                <option value="{{ $code }}" @if ($code == \App::getLocale()) selected @endif>{{ $lang }}</option>
-            @endforeach
-        </select>
+        <h2 class="mb-5">HaoLiHen</h2>
+     
     </header>
 
     <main class="container">
@@ -22,7 +17,7 @@
         </div>
 
         <div class="text-center">
-            <p class="my-5 text-muted">&copy; <span class="copyright-year"></span> Fresns</p>
+            <p class="my-5 text-muted">&copy; <span class="copyright-year"></span> HaoLiHen</p>
         </div>
     </main>
 @endsection

@@ -1,17 +1,11 @@
-@extends('FsView::commons.layout')
+@extends('FsView::commons.loginlayout')
 
 @section('body')
-    <main class="form-signin text-center">
+    <main class="form-signin text-center" >
         <form method="post" class="p-3" action="{{ route('panel.login') }}">
             @csrf
             <img class="mt-3 mb-2" src="{{ @asset('/static/images/icon.png') }}" alt="Fresns" width="72" height="72">
             <h2 class="mb-5">{{ __('FsLang::panel.fresns_panel') }}</h2>
-            <h4 class="mb-3 fw-normal">{{ __('FsLang::panel.language') }}</h4>
-            <select class="form-select mb-5 change-lang" aria-label=".form-select-lg example">
-                @foreach ($langs as $code => $lang)
-                    <option value="{{ $code }}" @if ($code == \App::getLocale()) selected @endif>{{ $lang }}</option>
-                @endforeach
-            </select>
             <h4 class="mb-3 fw-normal">{{ __('FsLang::panel.login') }}</h4>
             <div class="form-floating text-start">
                 <input type="text" class="form-control rounded-bottom-0" name="accountName" value="{{ old('accountName') }}" required placeholder="name@example.com">
@@ -22,7 +16,7 @@
                 <label for="password">{{ __('FsLang::panel.password') }}</label>
             </div>
             <button type="submit" class="w-100 btn btn-lg btn-primary mt-4">{{ __('FsLang::panel.enter') }}</button>
-            <p class="my-5 text-muted">&copy; <span class="copyright-year"></span> Fresns</p>
+            <p class="my-5 text-muted">&copy; <span class="copyright-year"></span> HaoLiHen</p>
         </form>
     </main>
 @endsection

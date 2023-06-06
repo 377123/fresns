@@ -29,7 +29,7 @@ return [
     'uninstallFailure' => '卸载失败',
 
     'copySuccess' => '复制成功',
-    'viewLog' => '执行遇到了问题，详细信息请查看 Fresns 系统日志',
+    'viewLog' => '执行遇到了问题，详细信息请查看 HaoLiHen 系统日志',
     // auth empty
     'auth_empty_title' => '请使用正确的入口登录面板',
     'auth_empty_description' => '您已退出登录或者登录超时，请访问登录入口重新登录。',
@@ -45,7 +45,7 @@ return [
     'install_end' => '安装结束',
     // upgrade
     'upgrade_none' => '暂无更新',
-    'upgrade_fresns' => '有新的 Fresns 版本可供升级。',
+    'upgrade_fresns' => '有新的 HaoLiHen 版本可供升级。',
     'upgrade_fresns_tip' => '您可以升级到',
     'upgrade_fresns_warning' => '升级前请先备份数据库，避免升级不当导致数据丢失。',
     'upgrade_confirm_tip' => '确定升级吗？',
@@ -58,14 +58,14 @@ return [
     'auto_upgrade_step_1' => '初始化验证',
     'auto_upgrade_step_2' => '下载升级包',
     'auto_upgrade_step_3' => '解压升级包',
-    'auto_upgrade_step_4' => '升级 Fresns',
+    'auto_upgrade_step_4' => '升级 HaoLiHen',
     'auto_upgrade_step_5' => '清理缓存',
     'auto_upgrade_step_6' => '完成',
     'manual_upgrade_step_1' => '初始化验证',
     'manual_upgrade_step_2' => '更新数据',
     'manual_upgrade_step_3' => '安装所有插件依赖包（该步骤流程较慢，请耐心等待）',
     'manual_upgrade_step_4' => '发布并恢复扩展启用',
-    'manual_upgrade_step_5' => '更新 Fresns 版本信息',
+    'manual_upgrade_step_5' => '更新 HaoLiHen 版本信息',
     'manual_upgrade_step_6' => '清理缓存',
     'manual_upgrade_step_7' => '完成',
     // uninstall

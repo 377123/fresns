@@ -16,7 +16,7 @@
     @stack('css')
 </head>
 
-<body>
+<body style="background: url('{{ @asset('/static/images/bg.png') }}') no-repeat;background-size: cover;">
     @yield('body')
 
     <div class="fresns-tips">

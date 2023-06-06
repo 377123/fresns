@@ -53,15 +53,14 @@ setTimeoutToastHide();
 
 // tips
 window.tips = function (message, code = 200) {
-    let html = `<div aria-live="polite" aria-atomic="true" class="position-fixed top-50 start-50 translate-middle" style="z-index:99999">
-        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                    <img src="/static/images/icon.png" width="20px" height="20px" class="rounded me-2" alt="Fresns">
-                    <strong class="me-auto">Fresns</strong>
-                    <small>${code}</small>
+    let html = `<div aria-live="polite" aria-atomic="true" class="position-fixed  start-50 translate-middle" style="z-index:99999;top: 35%!important;">
+        <div class="toast show py-lg-100" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-black text-light" >
+                    <strong class="me-auto">提示</strong>
+                    <small></small>
                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
-            <div class="toast-body">${message}</div>
+            <div class="toast-body py-lg-100  opacity-100 shadow-sm">${message}</div>
         </div>
     </div>`;
     $('div.fresns-tips').prepend(html);

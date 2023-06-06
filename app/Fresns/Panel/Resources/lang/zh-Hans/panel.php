@@ -14,8 +14,8 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'fresns_panel' => 'Fresns 控制面板',
-    'fresns_core' => 'Fresns 主程序',
+    'fresns_panel' => '系统控制面板',
+    'fresns_core' => 'HaoLiHen 主程序',
     // Login page
     'language' => '语言',
     'login' => '登录',
@@ -292,7 +292,7 @@ return [
     'unit_mile' => '英里',
     'delete_desc' => '确定删除吗？',
     // Dashboard-Home
-    'welcome' => '欢迎使用 Fresns',
+    'welcome' => '欢迎使用 HaoLiHen',
     'current_version' => '当前使用的版本是',
     'overview' => '站点数据',
     'overview_accounts' => '账号总数',
@@ -303,7 +303,7 @@ return [
     'overview_comments' => '评论总数',
     'extensions' => '应用数量',
     'support' => '帮助手册',
-    'support_website' => 'Fresns 官网',
+    'support_website' => 'HaoLiHen 官网',
     'support_teams' => '开源团队',
     'support_sponsor' => '赞助我们',
     'support_join' => '加入我们',
@@ -328,14 +328,14 @@ return [
     'system_info_database_collation' => '数据库排序规则',
     'system_info_database_size' => '当前数据库尺寸',
     'tips' => '使用说明',
-    'news' => 'Fresns 活动和新闻',
+    'news' => '活动和新闻',
     // Dashboard-Tips
     'tip_config' => '修改配置后，需要清空缓存才能生效新配置。',
     'tip_plugin_install_or_upgrade' => '插件安装或升级后，为避免插件的错误导致系统问题，所以默认为关闭状态，需手动启用。',
     // Dashboard-Events
     'event_subscribe_subject' => '主题',
     'event_crontab_time' => '执行周期',
-    'event_crontab_time_desc' => 'Laravel 定时任务表达式',
+    'event_crontab_time_desc' => '定时任务表达式',
     // Dashboard-Caches
     'cache' => '缓存',
     'cache_fresns_system' => '系统信息',

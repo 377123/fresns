@@ -75,13 +75,13 @@
                 <div class="navbar-nav">
                     <!--lang-->
                     <div class="btn-group d-flex flex-column">
-                        <button type="button" class="btn btn-outline-light btn-sm dropdown-toggle me-4" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-command"></i> {{ __('FsLang::panel.operation') }}
+                        <button type="button" class="btn btn-dark btn-sm dropdown-toggle me-4" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-circle"></i> {{ __('FsLang::panel.operation') }}
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="{{ $siteUrl ?? '/' }}" target="_blank"><i class="bi bi-house-door"></i> {{ __('FsLang::panel.site_home') }}</a></li>
                             <li><a class="dropdown-item" href="{{ route('panel.caches.index') }}"><i class="bi bi-database"></i> {{ __('FsLang::panel.button_clear_cache') }}</a></li>
-                            <li><a class="dropdown-item" href="#panelLangModal" data-bs-toggle="modal"><i class="bi bi-translate"></i> {{ __('FsLang::panel.switch_language') }}</a></li>
+                            <!-- <li><a class="dropdown-item" href="#panelLangModal" data-bs-toggle="modal"><i class="bi bi-translate"></i> {{ __('FsLang::panel.switch_language') }}</a></li> -->
                             <li><hr class="dropdown-divider"></li>
                             <li>
                                 <form action="{{route('panel.logout')}}" method="POST" id="panle_logout">

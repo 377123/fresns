@@ -1,5 +1,5 @@
 <div class="col-lg-2 fresns-sidebar mt-3 mt-lg-0">
-    <nav class="navbar navbar-expand-lg navbar-light flex-lg-column shadow" style="background-color:#e3f2fd;">
+    <nav class="navbar navbar-expand-lg navbar-light flex-lg-column shadow" style="background-color:#e6f7ff;">
         <div class="container-fluid d-lg-flex flex-lg-column">
             <span class="navbar-brand"><i class="bi bi-robot"></i> {{ __('FsLang::panel.menu_app_center') }}</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
