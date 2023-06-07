@@ -2,9 +2,8 @@
 <html lang="{{ App::getLocale() }}">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="HaoLiHen.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="_token" content="{{ csrf_token() }}">
     <title>{{ __('FsLang::panel.fresns_panel') }}</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -15,14 +14,11 @@
     <link rel="stylesheet" href="{{ @asset("/static/css/fresns-panel.css?{$versionMd5}") }}">
     @stack('css')
 </head>
-
-<body style="background: url('{{ @asset('/static/images/bg.png') }}') no-repeat;background-size: cover;">
+<body style="height: 100%;margin:0;padding:0;background: url('{{ @asset('https://devui.design/admin/assets/img/background/img_log.png') }}') no-repeat;">
     @yield('body')
-
     <div class="fresns-tips">
         @include('FsView::commons.tips')
     </div>
-
     <script src="{{ @asset('/static/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ @asset('/static/js/jquery.min.js') }}"></script>
     <script src="{{ @asset('/static/js/select2.min.js') }}"></script>

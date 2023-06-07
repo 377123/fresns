@@ -1,7 +1,7 @@
 @extends('FsView::commons.loginlayout')
 
 @section('body')
-    <main class="form-signin text-center" >
+    <main class="form-signin text-center my-5">
         <form method="post" class="p-3" action="{{ route('panel.login') }}">
             @csrf
             <img class="mt-3 mb-2" src="{{ @asset('/static/images/icon.png') }}" alt="Fresns" width="72" height="72">
